@@ -19,7 +19,6 @@ return {
 patterns = {
 "^[!/#][Nn]erkh$",
 "^[Nn]erkh$"
-"^نرخ$"
 },
 run = run
 }
