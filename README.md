@@ -6,7 +6,6 @@
 **You can use "#", "!", or "/" to begin all commands
 `````sh
 * ** Installation**
-```sh
 # Let's install the bot.
 cd $HOME
 git clone https://github.com/senator0/senatorv2.1
@@ -33,5 +32,5 @@ add your bot ID at line 4 in bot.luaadd your ID in config.luaadd your ID at line
 ````
 * **Our Telegram channel:**
 ````sh
-#
-[@senator](https://telegram.me/Senator_tea)
+
+# [@senator](https://telegram.me/Senator_tea)
