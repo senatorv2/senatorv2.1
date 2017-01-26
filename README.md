@@ -7,7 +7,7 @@
 * ** Installation**
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/senator0/senatorv2.1
+git clone https://github.com/senatorv2/senatorv2.1
 cd senatorv2.1
 chmod +x senator.sh
 ./senator.sh install
@@ -15,7 +15,7 @@ chmod +x senator.sh
 ````
 * **One commandTo install everything in one command, use:**
 ```sh
-cd $HOME && git clone https://github.com/senator0/senatorv2.1 && cd senatorv2.1 && chmod +x senator.sh && ./senator.sh install && ./senator.sh
+cd $HOME && git clone https://github.com/senatorv2/senatorv2.1 && cd senatorv2.1 && chmod +x senator.sh && ./senator.sh install && ./senator.sh
 `````
 * **Start Auto-launch**
 `````sh
