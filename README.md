@@ -4,7 +4,6 @@
 `````sh
 ||:--------|:------------|| [#!/]help | just send help in your group and get the commands |
 **You can use "#", "!", or "/" to begin all commands
-`````sh
 * ** Installation**
 # Let's install the bot.
 cd $HOME
@@ -33,14 +32,14 @@ cd $HOME && cd senatorv2 && screen ./senator.sh
      YourID 
     } 
     
-   ````
+   ````sh
 add your bot ID at line 4 in bot.
 luaadd your ID in config
 .luaadd your ID at line 362 in tools.
 luaThen restart the bot. 
-
+````
 * * *
-### Our Telegram channel:
-
+* **Our Telegram channel:**
+````
 [@senator](https://telegram.me/Senator_tea) 
 [@Lv_t_m](https://telegram.me/Lv_t_m)
