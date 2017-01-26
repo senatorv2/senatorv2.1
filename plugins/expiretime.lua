@@ -33,17 +33,17 @@ local function pre_process(msg)
 	end
 	if tonumber(timetoexpire) == 2 then
 		if redis:hget('expires2',msg.chat_id_) then end
-		tdcli.sendMessage(msg.chat_id_, 0, 1, '* Only 2 Days Please Extend\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'*.', 1, 'md')
+		tdcli.sendMessage(msg.chat_id_, 0, 1, '*Only 2 Days Please Extend\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'*.', 1, 'md')
 		redis:hset('expires2',msg.chat_id_,'5')
 	end
 	if tonumber(timetoexpire) == 3 then
 		if redis:hget('expires3',msg.chat_id_) then end
-		tdcli.sendMessage(msg.chat_id_, 0, 1, '* Only 3 Days Please Extend\n\n>\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'*.', 1, 'md')
+		tdcli.sendMessage(msg.chat_id_, 0, 1, '*Only 3 Days Please Extend\n\n>\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'*.', 1, 'md')
 		redis:hset('expires3',msg.chat_id_,'5')
 	end
 	if tonumber(timetoexpire) == 4 then
 		if redis:hget('expires4',msg.chat_id_) then end
-		tdcli.sendMessage(msg.chat_id_, 0, 1, '* Only 4 Days Please Extend\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'*.', 1, 'md')
+		tdcli.sendMessage(msg.chat_id_, 0, 1, '*Only 4 Days Please Extend\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'*.', 1, 'md')
 		redis:hset('expires4',msg.chat_id_,'5')
 	end
 	if tonumber(timetoexpire) == 5 then
