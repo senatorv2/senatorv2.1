@@ -27,10 +27,11 @@ cd $HOME && cd senatorv2 && screen ./senator.sh
 ````sh
 ./bot/bot.lua and add your ID to the "sudo_users" section in the following format:
 ```    sudo_users = {    157059515,    0,    YourID  }
-```
 add your bot ID at line 4 in bot.luaadd your ID in config.luaadd your ID at line 362 in tools.luaThen restart the bot.
 ````
 * **Our Telegram channel:**
-````sh
-
-# [@senator](https://telegram.me/Senator_tea)
+````
+#
+# [@senator](https://telegram.me/Senator_tea) 
+* **[@Lv_t_m](https://telegram.me/Lv_t_m)
+`````
