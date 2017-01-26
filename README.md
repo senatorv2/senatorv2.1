@@ -19,7 +19,7 @@ cd $HOME && git clone https://github.com/senatorv2/senatorv2.1 && cd senatorv2.1
 `````
 * **Start Auto-launch**
 `````sh
-cd $HOME && cd senatorv2 && screen ./senator.sh
+cd $HOME && cd senatorv2.1 && screen ./senator.sh
 ````` 
 * * *
 
