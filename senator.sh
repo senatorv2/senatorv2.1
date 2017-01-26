@@ -35,7 +35,7 @@ fi
 
 if [ "$1" = "-p" ]; then
     echo -e "\033[38;5;208m"
-    echo -e "     > BDReborn Source :D                        "
+    echo -e "     > senatorv2.1 Source :D                        "
     echo -e "                                              \033[0;00m"
     echo -e "\e[36m"
     ./tg/tgcli -s ./bot/bot.lua -p $2
