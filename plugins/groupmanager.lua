@@ -1997,7 +1997,7 @@ local hash = "gp_lang:"..msg.chat_id_
 local lang = redis:get(hash)
 if not is_mod(msg) then
 if not lang then
- 	return "_You're Not_ *Moderator*"🔏	
+ 	return "_You're Not_ *Moderator*🔏"	
 else
  return "🔏شما مدیر گروه نیستید"
 end
