@@ -40,6 +40,6 @@ luaThen restart the bot.
 ````
 * * *
 * **Our Telegram channel:**
-````
+
 # [senator](https://telegram.me/Senator_tea) 
 # [Lv_t_m](https://telegram.me/Lv_t_m)
