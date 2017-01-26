@@ -23,32 +23,32 @@ local function pre_process(msg)
 	end
 	if tonumber(timetoexpire) == 0 then
 		if redis:hget('expires0',msg.chat_id_) then end
-		tdcli.sendMessage(msg.chat_id_, 0, 1, '*⏰ 1 روز تا انقضای گروه باقی مانده است\n\n> برای تمدید تاریخ انقضای گروه میتوانید به گروه پشتیبانی روبات مراجعه نمایید و تقاضای تمدید دوباره نمایید\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg') *.', 1, 'md')
+		tdcli.sendMessage(msg.chat_id_, 0, 1, '*Only 0 Days Please Extend HureyUp\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'*.', 1, 'md')
 		redis:hset('expires0',msg.chat_id_,'5')
 	end
 	if tonumber(timetoexpire) == 1 then
 		if redis:hget('expires1',msg.chat_id_) then end
-		tdcli.sendMessage(msg.chat_id_, 0, 1, '*⏰ 1 روز تا انقضای گروه باقی مانده است\n\n> برای تمدید تاریخ انقضای گروه میتوانید به گروه پشتیبانی روبات مراجعه نمایید و تقاضای تمدید دوباره نمایید\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg') *.', 1, 'md')
+		tdcli.sendMessage(msg.chat_id_, 0, 1, `*Only And Only 1 Days Please Extend\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'*.', 1, 'md')
 		redis:hset('expires1',msg.chat_id_,'5')
 	end
 	if tonumber(timetoexpire) == 2 then
 		if redis:hget('expires2',msg.chat_id_) then end
-		tdcli.sendMessage(msg.chat_id_, 0, 1, '*⏰ 2 روز تا انقضای گروه باقی مانده است\n\n> برای تمدید تاریخ انقضای گروه میتوانید به گروه پشتیبانی روبات مراجعه نمایید و تقاضای تمدید دوباره نمایید\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg') *.', 1, 'md')
+		tdcli.sendMessage(msg.chat_id_, 0, 1, '* Only 2 Days Please Extend\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'*.', 1, 'md')
 		redis:hset('expires2',msg.chat_id_,'5')
 	end
 	if tonumber(timetoexpire) == 3 then
 		if redis:hget('expires3',msg.chat_id_) then end
-		tdcli.sendMessage(msg.chat_id_, 0, 1, '*⏰ 3 روز تا انقضای گروه باقی مانده است\n\n> برای تمدید تاریخ انقضای گروه میتوانید به گروه پشتیبانی روبات مراجعه نمایید و تقاضای تمدید دوباره نمایید\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg') *.', 1, 'md')
+		tdcli.sendMessage(msg.chat_id_, 0, 1, '* Only 3 Days Please Extend\n\n>\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'*.', 1, 'md')
 		redis:hset('expires3',msg.chat_id_,'5')
 	end
 	if tonumber(timetoexpire) == 4 then
 		if redis:hget('expires4',msg.chat_id_) then end
-		tdcli.sendMessage(msg.chat_id_, 0, 1, '*⏰ 4 روز تا انقضای گروه باقی مانده است\n\n> برای تمدید تاریخ انقضای گروه میتوانید به گروه پشتیبانی روبات مراجعه نمایید و تقاضای تمدید دوباره نمایید\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg') *.', 1, 'md')
+		tdcli.sendMessage(msg.chat_id_, 0, 1, '* Only 4 Days Please Extend\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'*.', 1, 'md')
 		redis:hset('expires4',msg.chat_id_,'5')
 	end
 	if tonumber(timetoexpire) == 5 then
 		if redis:hget('expires5',msg.chat_id_) then end
-		tdcli.sendMessage(msg.chat_id_, 0, 1, '*⏰ 5 روز تا انقضای گروه باقی مانده است\n\n> برای تمدید تاریخ انقضای گروه میتوانید به گروه پشتیبانی روبات مراجعه نمایید و تقاضای تمدید دوباره نمایید\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg') *.', 1, 'md')
+		tdcli.sendMessage(msg.chat_id_, 0, 1, '*Only 5 Days Please Extend\n\n👥 لینک گروه پشتیبانی :\nhttps://telegram.me/joinchat/CiQ430ApYbU4pHCdc65gKg'*.', 1, 'md')
 		redis:hset('expires5',msg.chat_id_,'5')
 	end
 end
