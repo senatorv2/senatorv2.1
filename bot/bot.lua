@@ -88,7 +88,7 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》senator v2.1
+    info_text = [[》senator v2.1 گروه پشتیبانی \nhttps://telegram.me/joinchat/AAAAAEApYbVX4kzYqYKMjQ'
 ]],
   }
   serialize_to_file(config, './data/config.lua')
